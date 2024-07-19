@@ -2961,24 +2961,43 @@
                             <h3>Get in touch</h3>
                             <hr>
                             <h5>We are waiting to assist you</h5>
-                            <h6>Simply use the form below to get in touch</h6>
-
+                            <h6 id="contact_info_result">Simply use the form below to get in touch</h6>
                             <hr>
                         </div>
                         <!-- Contact Form -->
                         <!-- <fieldset id="contact_form">
                             <div id="result"></div>
+                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
                             <input type="text" name="name" id="name" placeholder="NAME" />
                             <input type="email" name="email" id="email" placeholder="EMAIL" />
                             <textarea name="message" id="message" placeholder="MESSAGE"></textarea>
                             <span class="submit_btn" id="submit_btn">SEND MESSAGE</span>
                         </fieldset> -->
-                        <div class="aside-footer contact-form-icons">
-                            <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                            <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                            <a href="#"><i class="fa fa fa-dribbble fa-2x"></i></a>
-                            <a href="#"><i class="fa fa fa-github fa-2x"></i></a>
+                        <div class="contact-message-box" id="contact-message-box">
+                            <form method="POST" id="contact_form">
+
+                                <input type="hidden" name="access_key" value="9f275224-00aa-4e7b-ac6b-606c707c2699">
+
+                                <input type="text" name="name" required>
+                                <input type="email" name="email" required>
+                                <textarea name="message" required></textarea>
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                                <button type="submit" class="submit_btn" id="submit_btn">Send Message</button>
+                            </form>
+                            <div id="result"></div>
+                        </div>
+                        <div class="contact-message-box-social" id="contact-message-box-social">
+                            <div class="contact-message-box-social-text"><span style="text-align: center;">If your
+                                    inquiry is urgent,</span><br>
+                                Please use the
+                                email & linkedin listed below to talk</div>
+                            <div class="aside-footer contact-form-icons">
+                                <a href="mailto:biswajitdeb324@gmail.com" target="_blank"><i
+                                        class="fa fa-envelope fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/in/nirmalya-kar-phd-115284a/" target="_blank"><i
+                                        class="fa fa-linkedin fa-2x"></i></a>
+                            </div>
                         </div>
                         <!-- End Contact Form -->
                     </div>
@@ -2994,11 +3013,11 @@
     </div>
 
     <!-- PLUGIN SCRIPTS -->
-
+    <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/default.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
     <script type="text/javascript" src="js/watch.js"></script>
     <script type="text/javascript" src="js/layout.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

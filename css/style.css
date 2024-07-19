@@ -1632,12 +1632,12 @@ ul.marquee li {
 .team1 {
   z-index: 2;
   background: linear-gradient(rgba(43, 48, 59, 0.8), rgba(43, 48, 59, 0.8)),
-    url(../images/team/team1.jpg);
+    url(../images/research_team/phd_scholar1.jpg);
   background: -webkit-linear-gradient(
       rgba(43, 48, 59, 0.8),
       rgba(43, 48, 59, 0.8)
     ),
-    url(../images/team/team1.jpg);
+    url(../images/research_team/phd_scholar1.jpg);
 }
 
 .team2 {
@@ -3483,4 +3483,19 @@ img.mfp-img {
     margin-right: 5px;
     font-size: 9px;
   }
+}
+#contact_info_result {
+  font-size: 17px;
+  font-weight: bold;
+  color: #81b71a;
+}
+.contact-message-box-social {
+  display: none;
+  justify-content: center;
+}
+.contact-message-box-social-text {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 3rem;
+  font-weight: 500;
 }
